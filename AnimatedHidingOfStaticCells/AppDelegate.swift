@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  AnimatedHidingOfStaticCells
+//  AnimatedStaticCellHide
 //
-//  Created by Sergey Skoblikov on 03.07.2015.
+//  Created by Sergey Skoblikov on 02.07.2015.
 //  Copyright (c) 2015 mgsxx. All rights reserved.
 //
 
