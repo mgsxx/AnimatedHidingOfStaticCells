@@ -39,7 +39,7 @@ class MyTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-        // calling tableView:cellForRowAtIndexPath: leads to stack overflow.
+        // calling tableView.cellForRowAtIndexPath: leads to stack overflow.
         // So chached indexes are used to identify cells.
         if !hiddenCellsAreShown && (indexPath == hiddenCell1IndexPath || indexPath == hiddenCell2IndexPath) {
             return 0
